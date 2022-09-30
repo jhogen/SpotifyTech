@@ -179,7 +179,7 @@ df_describe = df.describe()
 pages = st.sidebar.radio('paginas',options=['Home','API Dataset', 'Plot van Populariteit', 'Artiesten Info', 'Slider Artiest & Album'], label_visibility='hidden')
 
 if pages == 'Home':
-    st.subheader("SPOTIFY API - GROEP 22")
+    st.subheader("SPOTIFY API - GROEP 23")
     st.markdown("Data Science 2022 - HvA - Osman, Thomas, Floris & Jakob")
 elif pages == 'API Dataset':
     st.subheader('Dataset Global Top 50 Songs')
